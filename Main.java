@@ -11,6 +11,9 @@ public class Main {
 
         // Display all products
         // This functionality needs to be implemented in the Inventory class
+        
+        //File path
+        
         // Additional functionalities like updating a product, saving/loading from a file can be implemented later
     }
 }

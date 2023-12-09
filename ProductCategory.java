@@ -1,15 +1,26 @@
 package rainbox;
 
+/**
+ * Represents a category for products in the inventory.
+ */
 public class ProductCategory {
+    // Attributes for the category
     private String categoryId;
     private String name;
 
+    /**
+     * Constructs a new ProductCategory instance.
+     *
+     * @param categoryId The unique identifier for the category.
+     * @param name       The name of the category.
+     */
     public ProductCategory(String categoryId, String name) {
         this.categoryId = categoryId;
         this.name = name;
     }
 
-    // Getter and Setter for categoryId
+    // Getter and setter methods
+
     public String getCategoryId() {
         return categoryId;
     }
@@ -18,7 +29,6 @@ public class ProductCategory {
         this.categoryId = categoryId;
     }
 
-    // Getter and Setter for name
     public String getName() {
         return name;
     }
@@ -28,13 +38,4 @@ public class ProductCategory {
     }
 
     // You can override the toString method for easy display of category information
-    @Override
-    public String toString() {
-        return "ProductCategory{" +
-                "categoryId='" + categoryId + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
-    // Additional functionalities can be added as per your requirements
 }
